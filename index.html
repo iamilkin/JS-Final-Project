@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./appss.css">
+    <title>Document</title>
+    <style>
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: rgba(255, 255, 255, 1);
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+        
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar Start -->
+    <section class="navigationBar">
+        <header>
+            <div class="desktop-nav--wrapper">
+            </div>
+            <div class="mainLogo">
+                <figure>
+                    <img src="./Photos/NavLogo/logo dark.png" alt="logo">
+                </figure>
+            </div>
+            <nav class="naviBar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button class="naviBtn"><a href="#">Login</a></button>
+            <div class="navBar"><i class="fa fa-bars"></i></div>
+
+            <div class="menu_nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <button class="menu_btn"><a href="#">Login</a></button>
+        </header>
+    </section>
+    <!-- Navigation Bar End -->
+
+
+    <!-- Section 2 Start -->
+    <section>
+        <div class="main_section">
+            <h2>Word at the speed <br> of thought</h2>
+            <p>Most calendars are designed for teams. Slate is designed for <br> freelancers who want a simple way to plan their schedule.</p>
+            <div>
+                <button class="btn1"><a href="#">Try For Free</a></button>
+                <button class="btn2"><a href="#">Learn More</a></button>
+            </div>
+            <div class="section2_image">
+                <figure>
+                    <img src="./Photos/Section 2/screens (1).png" alt="">
+                </figure>
+            </div>
+        </div>
+    </section>
+    <!-- Section 2 End -->
+
+    <!-- Section 3 Start -->
+    <section>
+        <div class="section3">
+            <h4>Features</h4>
+            <p>Most calendars are designed for teams. Slate is designed for <br> freelancers who want a simple way to plan their schedule.</p>
+            <div class="section3_main">
+                <div class="section3_main_figure">
+                    <figure class="section3_main_figure1">
+                        <img src="./Photos/Section 3/Chat Bot.png" alt="">
+                    </figure>
+                    <figure class="section3_main_figure2">
+                        <img src="./Photos/Section 3/Line Chart 1.png" alt="">
+                    </figure>
+                </div>
+                <div class="section3_api">
+                    <ul class="main_ul">
+
+                        <!-- <li>
+                            <div>
+                                <div>
+                                    <figure>
+                                        <img src="./Photos/Section 3/Vector.svg" alt="">
+                                    </figure>
+                                    <h5>A single source of truth</h5>
+                                </div>
+                                <p>When you add work to your Slate calendar we automatically calculate useful insights</p>
+                            </div>
+                           
+                        </li>
+                        <li>
+                            <div>
+                                <div>
+                                    <figure>
+                                        <img src="./Photos/Section 3/Vector.svg" alt="">
+                                    </figure>
+                                    <h5>A single source of truth</h5>
+                                </div>
+                                <p>When you add work to your Slate calendar we automatically calculate useful insights</p>
+                            </div>
+                           
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section 3 End -->
+
+    <!-- Section 4 Start -->
+    <section>
+        <div class="section4">
+            <h4>Contents</h4>
+            <p>We focus on ergonomics and meeting you where you work.
+                <br> It's only a keystroke away.</p>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div>
+                            <h4>Work</h4>
+                            <p>Ever wondered if you're too reliant
+                                <br> on a client for work? Slate helps
+                                <br> you identify .</p>
+                            <button class="btn1"><a href="#">Sign-Up</a></button>
+                            <figure class="section4_photo1">
+                                <img src="./Photos/Section 4/Macbook Pro.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <h4>Design with real data</h4>
+                            <p>Ever wondered if you're too reliant
+                                <br> on a client for work? Slate helps
+                                <br> you identify .</p>
+                            <button class="btn2"><a href="#">Try For Free</a></button>
+                            <figure class="section4_photo2">
+                                <img src="./Photos/Section 4/Boards Notifications.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <h4>Work</h4>
+                            <p>Ever wondered if you're too reliant
+                                <br> on a client for work? Slate helps
+                                <br> you identify .</p>
+                            <button class="btn1"><a href="#">Sign-Up</a></button>
+                            <figure class="section4_photo1">
+                                <img src="./Photos/Section 4/Macbook Pro.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <h4>Design with real data</h4>
+                            <p>Ever wondered if you're too reliant
+                                <br> on a client for work? Slate helps
+                                <br> you identify .</p>
+                            <button class="btn2"><a href="#">Try For Free</a></button>
+                            <figure class="section4_photo2">
+                                <img src="./Photos/Section 4/Boards Notifications.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <h4>Work</h4>
+                            <p>Ever wondered if you're too reliant
+                                <br> on a client for work? Slate helps
+                                <br> you identify .</p>
+                            <button class="btn1"><a href="#">Sign-Up</a></button>
+                            <figure class="section4_photo1">
+                                <img src="./Photos/Section 4/Macbook Pro.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <h4>Design with real data</h4>
+                            <p>Ever wondered if you're too reliant
+                                <br> on a client for work? Slate helps
+                                <br> you identify .</p>
+                            <button class="btn2"><a href="#">Try For Free</a></button>
+                            <figure class="section4_photo2">
+                                <img src="./Photos/Section 4/Boards Notifications.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section 4 End -->
+
+    <!-- Section 5 Start -->
+    <section>
+        <div class="section5">
+            <h4>Gallery</h4>
+            <p>We focus on ergonomics and meeting you where you work.
+                <br> It's only a keystroke away.</p>
+            <div class="section5_images_part1">
+                <div>
+                    <ul>
+                        <li>
+                            <figure><img src="./Photos/Section 5/Rectangle 1.png" alt=""></figure>
+                        </li>
+                        <li>
+                            <figure><img src="./Photos/Section 5/Rectangle 1 (1).png" alt=""></figure>
+                        </li>
+                        <li>
+                            <figure><img src="./Photos/Section 5/Rectangle 1 (2).png" alt=""></figure>
+                        </li>
+                        <li>
+                            <figure><img src="./Photos/Section 5/Rectangle 1 (3).png" alt=""></figure>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <figure><img src="./Photos/Section 5/Rectangle 1 (4).png" alt=""></figure>
+                        </li>
+                        <li>
+                            <figure><img src="./Photos/Section 5/Rectangle 1 (5).png" alt=""></figure>
+                        </li>
+                        <li>
+                            <figure><img src="./Photos/Section 5/Rectangle 1 (6).png" alt=""></figure>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section5_images_part2">
+                <div>
+                    <ul>
+                        <li>
+                            <figure><img src="./Photos/Section 5/Rectangle 1.png" alt=""></figure>
+                        </li>
+                        <li>
+                            <figure><img src="./Photos/Section 5/Rectangle 1 (1).png" alt=""></figure>
+                        </li>
+                        <li>
+                            <figure><img src="./Photos/Section 5/Rectangle 1 (2).png" alt=""></figure>
+                        </li>
+                        <li>
+                            <figure><img src="./Photos/Section 5/Rectangle 1 (3).png" alt=""></figure>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <figure><img src="./Photos/Section 5/Rectangle 1 (4).png" alt=""></figure>
+                        </li>
+                        <li>
+                            <figure><img src="./Photos/Section 5/Rectangle 1 (5).png" alt=""></figure>
+                        </li>
+                        <li>
+                            <figure><img src="./Photos/Section 5/Rectangle 1 (6).png" alt=""></figure>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section5_btn"><button class="section5_btn1">See More</button></div>
+        </div>
+    </section>
+    <!-- Section 5 End -->
+
+    <!-- Section 6 Start-->
+    <section>
+        <div class="section6">
+            <h4>Partners</h4>
+            <p>We focus on ergonomics and meeting you where you work.
+                <br> It's only a keystroke away.</p>
+            <div class="section6_images">
+                <ul>
+                    <li>
+                        <figure><img src="./Photos/Section 6/logos_apple-app-store.png" alt=""></figure>
+                    </li>
+                    <li>
+                        <figure><img src="./Photos/Section 6/logos_apiary.png" alt=""></figure>
+                    </li>
+                    <li>
+                        <figure><img src="./Photos/Section 6/logos_android-icon.png" alt=""></figure>
+                    </li>
+                    <li>
+                        <figure><img src="./Photos/Section 6/logos_basecamp.png" alt=""></figure>
+                    </li>
+                    <li>
+                        <figure><img src="./Photos/Section 6/logos_airbnb.png" alt=""></figure>
+                    </li>
+                    <li>
+                        <figure><img src="./Photos/Section 6/logos_ibm.png" alt=""></figure>
+                    </li>
+                </ul>
+            </div>
+            <div class="section6_btn">
+                <button class="section6_btn1"><a href="#">All Partners</a></button>
+            </div>
+        </div>
+    </section>
+    <!-- Section 6 End -->
+
+    <!-- Section 7 Start -->
+    <section class="section7">
+        <div class="section7_main_part">
+            <h2>Testimonials</h2>
+            <div class="section7_main_part_cards">
+            </div>
+        </div>
+    </section>
+    <!-- Section 7 End -->
+
+    <!-- Section 8 Start -->
+    <section class="section8">
+        <div class="section8_main">
+            <div class="section8__main_write">
+                <h3>OpenType features <br> and Variable fonts</h3>
+                <button class="section8_button">
+                    <a href="#">Try For Free</a>
+                </button>
+            </div>
+            <div class="section8_photo">
+                <figure>
+                    <img src="./Photos/Section 8/Line Chart 1.png" alt="">
+                </figure>
+            </div>
+        </div>
+    </section>
+    <!-- Section 8 End -->
+
+
+    <!-- Footer Start -->
+    <section>
+        <footer class="footer">
+            <div class="footer_main1">
+                <div>
+                    <h5>Fingertipe</h5>
+                    <div>
+                        <ul>
+                            <li>Home</li>
+                            <li>Examples</li>
+                            <li>Pricing</li>
+                            <li>Updates</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h5>Resources</h5>
+                    <div>
+                        <ul>
+                            <li>Home</li>
+                            <li>Examples</li>
+                            <li>Pricing</li>
+                            <li>Updates</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h5>About</h5>
+                    <div>
+                        <ul>
+                            <li>Home</li>
+                            <li>Examples</li>
+                            <li>Pricing</li>
+                            <li>Updates</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_main2">
+                <ul>
+                    <li><img src=".//Photos/Footer/Vector.svg" alt=""><span>Mockingbird Hill undefined</span></li>
+                    <li><img src="./Photos/Footer/Vector (2).svg" alt=""><span>(239) 555-0108+</span></li>
+                    <li>
+                        <div>
+                            <ul>
+                                <li>
+                                    <a href=""><img src="./Photos/Footer/Vector (1).svg" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href=""><img src="./Photos/Footer/Vector (3).svg" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href=""><img src="./Photos/Footer/./Vector (4).svg" alt=""></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </footer>
+    </section>
+    <!-- Footer End -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+
+</html>
